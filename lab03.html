@@ -2,10 +2,11 @@
 <html lang="en">
 
 <head>
-    <title>Bootstrap Example</title>
+    <title>My Blog</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <style>
@@ -50,35 +51,46 @@
                 <ul class="nav nav-pills nav-stacked">
                     <li class="active"><a href="#section1">Home</a></li>
                     <li><a href="#section2">Friends</a></li>
+                    <ul>
+                        <li><a href="https://www.facebook.com/ChayanSuratruangchai?fref=ts">Chayan</a></li>
+                        <li><a href="https://www.facebook.com/rutthapon.lertprasertwet?fref=ts">Rutthapon</a></li>
+                        <li><a href="https://www.facebook.com/profile.php?id=100002652322176&fref=ts">Rattanachart</a></li>
+                        <li><a href="https://www.facebook.com/sketch.book.101505?fref=ts">Suphakiat</a></li>
+                    </ul>
                     <li><a href="#section3">Family</a></li>
-                    <li><a href="#section3">Photos</a></li>
+
+                    <li><a href="http://angsila.cs.buu.ac.th/~58160038/887371/lab02/gallery.html">Photos</a></li>
+                    <li><a href="https://www.facebook.com/somkid.23071996"><i class="fa fa-facebook"></i>&nbsp;My facebook</a></li>
                 </ul><br>
-                <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Search Blog..">
-                    <span class="input-group-btn">
-          <button class="btn btn-default" type="button">
-            <span class="glyphicon glyphicon-search"></span>
+                <div class="input-group ">
+                    <input type="text " class="form-control " placeholder="Search Blog.. ">
+                    <span class="input-group-btn ">
+          <button class="btn btn-default " type="button ">
+            <span class="glyphicon glyphicon-search "></span>
                     </button>
                     </span>
                 </div>
             </div>
 
-            <div class="col-sm-9">
+            <div class="col-sm-9 ">
                 <h4><small>RECENT POSTS</small></h4>
                 <hr>
                 <h2>การใช้งาน Bootstrap Grid Basic</h2>
-                <h5><span class="glyphicon glyphicon-time"></span> Post by Somkid Homhual, Feb 06, 2017.</h5>
-                <h5><span class="label label-danger">Bootstrap</span> <span class="label label-primary">Grid</span></h5><br>
-                <p>Food is my passion. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <br><br>
+                <h5><span class="glyphicon glyphicon-time "></span> Post by Somkid Homhual, Feb 06, 2017.</h5>
+                <h5><span class="label label-danger ">Bootstrap</span> <span class="label label-primary ">Grid</span></h5><br>
+                <p>Grid คือ Layout ที่คอยควบคุมวัตถุต่างๆ บนหน้าเว็บไซต์ให้แสดงผลได้อย่างถูกต้องตามหลัก box layout ซึ่งจะส่งผลดีต่อการเขียนหนึ่งหน้าเว็บไซต์ แต่สามารถใช้ร่วมกับอุปกรณ์ทุกขนาดหน้าจอ Grid system ของ Bootstrap เอง แบ่งออกเป็น 12 คอลัมน์ ถ้าให้เห็นภาพง่ายขึ้นก็น่าจะต้องบอกว่า
+                    เหมือนกับตาราง 1 แถว มี 12 คอลัมน์.</p>
+                <br>
+                <font size="5 ">รูปภาพประกอบ</font><br>
+                <img src="grid.jpg ">
+
+
 
                 <h4><small>RECENT POSTS</small></h4>
                 <hr>
                 <h2>การใช้งาน Bootstrap Forms</h2>
-                <h5><span class="glyphicon glyphicon-time"></span> Post by Somkid Homhual, Feb 06, 2017.</h5>
-                <h5><span class="label label-danger">Bootstrap</span> <span class="label label-primary">Form</span></h5><br>
+                <h5><span class="glyphicon glyphicon-time "></span> Post by Somkid Homhual, Feb 06, 2017.</h5>
+                <h5><span class="label label-danger ">Bootstrap</span> <span class="label label-primary ">Form</span></h5><br>
                 <p> Form คือการให้ผู้ใช้กรอกข้อมูล แล้วกดส่งค่า เพื่อจะเก็บค่าของข้อมูลบางอย่าง <br>
                     <ul>Bootstrap มีสามประเภทของการจัดรูปแบบ
                         <li> รูปแบบแนวตั้ง (นี้เป็นค่าเริ่มต้น)</li>
@@ -87,101 +99,101 @@
                     </ul>
 
                 </p>
-                <font size="5">ตัวอย่างแบบดั้งเดิม </font><br>
+                <font size="5 ">ตัวอย่างแบบดั้งเดิม </font><br>
 
-                <form role="form">
-                    <div class="form-group">
-                        <label for="email">Email address:</label>
-                        <input type="email" class="form-control" id="email">
+                <form role="form ">
+                    <div class="form-group ">
+                        <label for="email ">Email address:</label>
+                        <input type="email " class="form-control " id="email ">
                     </div>
-                    <div class="form-group">
-                        <label for="pwd">Password:</label>
-                        <input type="password" class="form-control" id="pwd">
+                    <div class="form-group ">
+                        <label for="pwd ">Password:</label>
+                        <input type="password " class="form-control " id="pwd ">
                     </div>
-                    <div class="checkbox">
-                        <label><input type="checkbox"> Remember me</label>
+                    <div class="checkbox ">
+                        <label><input type="checkbox "> Remember me</label>
                     </div>
-                    <button type="submit" class="btn btn-default">Submit</button>
+                    <button type="submit " class="btn btn-default ">Submit</button>
                 </form>
                 <hr>
-                <font size="5">ตัวอย่างแบบแนวนอน </font><br>
-                <form class="form-inline" role="form">
-                    <div class="form-group">
-                        <label for="email">Email address:</label>
-                        <input type="email" class="form-control" id="email">
+                <font size="5 ">ตัวอย่างแบบแนวนอน </font><br>
+                <form class="form-inline " role="form ">
+                    <div class="form-group ">
+                        <label for="email ">Email address:</label>
+                        <input type="email " class="form-control " id="email ">
                     </div>
-                    <div class="form-group">
-                        <label for="pwd">Password:</label>
-                        <input type="password" class="form-control" id="pwd">
+                    <div class="form-group ">
+                        <label for="pwd ">Password:</label>
+                        <input type="password " class="form-control " id="pwd ">
                     </div>
-                    <div class="checkbox">
-                        <label><input type="checkbox"> Remember me</label>
+                    <div class="checkbox ">
+                        <label><input type="checkbox "> Remember me</label>
                     </div>
-                    <button type="submit" class="btn btn-default">Submit</button>
+                    <button type="submit " class="btn btn-default ">Submit</button>
                 </form><br>
-                <font size="5">ตัวอย่างแบบอินไลน์ </font><br>
-                <form class="form-horizontal" role="form">
-                    <div class="form-group">
-                        <label class="control-label col-sm-2" for="email">Email:</label>
-                        <div class="col-sm-10">
-                            <input type="email" class="form-control" id="email" placeholder="Enter email">
+                <font size="5 ">ตัวอย่างแบบอินไลน์ </font><br>
+                <form class="form-horizontal " role="form ">
+                    <div class="form-group ">
+                        <label class="control-label col-sm-2 " for="email ">Email:</label>
+                        <div class="col-sm-10 ">
+                            <input type="email " class="form-control " id="email " placeholder="Enter email ">
                         </div>
                     </div>
-                    <div class="form-group">
-                        <label class="control-label col-sm-2" for="pwd">Password:</label>
-                        <div class="col-sm-10">
-                            <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+                    <div class="form-group ">
+                        <label class="control-label col-sm-2 " for="pwd ">Password:</label>
+                        <div class="col-sm-10 ">
+                            <input type="password " class="form-control " id="pwd " placeholder="Enter password ">
                         </div>
                     </div>
-                    <div class="form-group">
-                        <div class="col-sm-offset-2 col-sm-10">
-                            <div class="checkbox">
-                                <label><input type="checkbox"> Remember me</label>
+                    <div class="form-group ">
+                        <div class="col-sm-offset-2 col-sm-10 ">
+                            <div class="checkbox ">
+                                <label><input type="checkbox "> Remember me</label>
                             </div>
                         </div>
                     </div>
-                    <div class="form-group">
-                        <div class="col-sm-offset-2 col-sm-10">
-                            <button type="submit" class="btn btn-default">Submit</button>
+                    <div class="form-group ">
+                        <div class="col-sm-offset-2 col-sm-10 ">
+                            <button type="submit " class="btn btn-default ">Submit</button>
                         </div>
                     </div>
                 </form>
 
                 <h4>Leave a Comment:</h4>
-                <form role="form">
-                    <div class="form-group">
-                        <textarea class="form-control" rows="3" required></textarea>
+                <form role="form ">
+                    <div class="form-group ">
+                        <textarea class="form-control " rows="3 " required></textarea>
                     </div>
-                    <button type="submit" class="btn btn-success">Submit</button>
+                    <button type="submit " class="btn btn-success ">Submit</button>
                 </form>
                 <br><br>
 
-                <p><span class="badge">2</span> Comments:</p><br>
+                <p><span class="badge ">2</span> Comments:</p><br>
 
-                <div class="row">
-                    <div class="col-sm-2 text-center">
-                        <img src="bank.jpg" class="img-circle" height="65" width="65" alt="Avatar">
+                <div class="row ">
+                    <div class="col-sm-2 text-center ">
+                        <img src="bank.jpg " class="img-circle " height="65 " width="65 " alt="Avatar ">
                     </div>
-                    <div class="col-sm-10">
-                        <h4>Chayan Suratruangchai <small>Sep 29, 2015, 9:12 PM</small></h4>
-                        <p>Keep up the GREAT work! I am cheering for you!! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <div class="col-sm-10 ">
+                        <h4>Chayan Suratruangchai <small>Feb 06, 2017, 7:00 PM</small></h4>
+                        <p>อ่านแล้วทำให้เข้าใจข้อมูลได้มากขึ้นเลยครับ.</p>
                         <br>
                     </div>
-                    <div class="col-sm-2 text-center">
-                        <img src="profile.jpg" class="img-circle" height="65" width="65" alt="Avatar">
+                    <div class="col-sm-2 text-center ">
+                        <img src="profile.jpg " class="img-circle " height="65 " width="65 " alt="Avatar ">
                     </div>
-                    <div class="col-sm-10">
-                        <h4>Somkid Homhual <small>Sep 25, 2015, 8:25 PM</small></h4>
-                        <p>I am so happy for you man! Finally. I am looking forward to read about your trendy life. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <div class="col-sm-10 ">
+                        <h4>Somkid Homhual <small>Feb 07, 2017, 8:30 PM</small></h4>
+                        <p>ขอบคุณสำหรับคำชมครับ ผมมีความสุขมากจริงๆ.</p>
                         <br>
-                        <p><span class="badge">1</span> Comment:</p><br>
-                        <div class="row">
-                            <div class="col-sm-2 text-center">
-                                <img src="toey.jpg" class="img-circle" height="65" width="65" alt="Avatar">
+                        <p><span class="badge ">1</span> Comment:</p><br>
+                        <div class="row ">
+                            <div class="col-sm-2 text-center ">
+                                <img src="toey.jpg " class="img-circle " height="65 " width="65 " alt="Avatar ">
                             </div>
-                            <div class="col-xs-10">
-                                <h4>Rattanachart Jamnienkan <small>Sep 25, 2015, 8:28 PM</small></h4>
-                                <p>ผมก็คิดเหมือนกัน</p>
+                            <div class="col-xs-10 ">
+                                <h4>Rattanachart Jamnienkan <small>Feb 07, 2017, 9:00 PM</small></h4>
+                                <p>สู้ๆ นะครับ</p>
                                 <br>
                             </div>
                         </div>
@@ -191,7 +203,7 @@
         </div>
     </div>
 
-    <footer class="container-fluid">
+    <footer class="container-fluid ">
         <p>Footer Text</p>
     </footer>
 
